@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "io.github.a5b84.keepincompatiblepacks.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "client": [
+        "GameOptionsMixin",
+        "ResourcePackEntryMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

@@ -1,23 +1,19 @@
 {
     "schemaVersion": 1,
 
-    "id": "__id__",
+    "id": "keep-incompatible-packs",
     "version": "${version}",
 
-    "name": ".__id__",
-    "description": "bla",
-    "icon": "assets/__id__/icon.png",
+    "name": "Keep Incompatible Packs",
+    "description": "Prevents the game from removing incompatible packs when updating and skips the confirmation screen when enabling one",
     "authors": ["Neecko"],
     "contact": {
-        "homepage": "https://github.com/A5b84/__id__",
-        "issues": "https://github.com/A5b84/__id__/issues",
-        "sources": "https://github.com/A5b84/__id__"
+        "homepage": "https://github.com/A5b84/keep-incompatible-packs",
+        "issues": "https://github.com/A5b84/keep-incompatible-packs/issues",
+        "sources": "https://github.com/A5b84/keep-incompatible-packs"
     },
     "license": "LGPL-3.0-or-later",
 
     "environment": "client",
-    "entrypoints": {
-        "client": ["io.github.a5b84.__package__.Mod"]
-    },
-    "mixins": ["__id__.mixins.json"]
+    "mixins": ["keep-incompatible-packs.mixins.json"]
 }
