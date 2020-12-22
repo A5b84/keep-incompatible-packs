@@ -21,5 +21,8 @@ bin/
 .classpath
 .project
 
+# MacOS
+*.DS_Store
+
 # Fabric
 run/
